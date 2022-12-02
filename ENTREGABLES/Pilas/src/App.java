@@ -8,10 +8,10 @@ public class App {
         sPila.push("Camisa favorita");
 
         System.out.println("El ultimo elemento es : "+ sPila.peek());
-        while(){
-            pop();
-            
-        }
+
+        while(!sPila.isEmpty()){
+            System.out.println(sPila.pop());
+    }
     }
 
 

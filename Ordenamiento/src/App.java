@@ -11,5 +11,10 @@ public class App {
         //imprime la lista ordenada
         System.out.println(Arrays.toString(listadesOrdenada));
 
+       //insercion
+        int[] listadesOrdenadaa={5,6,9,4,2,1,7};
+        System.out.println(Arrays.toString(listadesOrdenadaa));
+        Ordenamiento.insercion(listadesOrdenadaa);
+        System.out.println(Arrays.toString(listadesOrdenadaa));
     }
 }

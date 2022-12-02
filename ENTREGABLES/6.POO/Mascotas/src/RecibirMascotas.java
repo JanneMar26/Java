@@ -1,8 +1,10 @@
-public class RecibirMascotas() {
-
-    //@autor Janett Venegas Martínez
+public class RecibirMascotas {
+    private String nombrePerro;
+    private int edad;
+    private String raza;
+    private String tamaño;
+    private String nombreDueño;
     
-
     public RecibirMascotas(String nombrePerro, int edad, String raza, String tamaño, String nombreDueño) {
         this.nombrePerro = nombrePerro;
         this.edad = edad;
@@ -10,12 +12,6 @@ public class RecibirMascotas() {
         this.tamaño = tamaño;
         this.nombreDueño = nombreDueño;
     }
-    private String nombrePerro;
-    private int edad;
-    private String raza;
-    private String tamaño;
-    private String nombreDueño;
-    
     public String getNombrePerro() {
         return nombrePerro;
     }
@@ -48,5 +44,4 @@ public class RecibirMascotas() {
     }     
 
     
-}
 }
