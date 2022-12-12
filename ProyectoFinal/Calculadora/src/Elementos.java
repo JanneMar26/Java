@@ -1,6 +1,7 @@
 import java.awt.*;
 import javax.swing.*;
 
+
 public class Elementos extends JFrame {
     public Elementos() {
         super("Elementos");
